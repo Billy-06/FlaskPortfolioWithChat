@@ -5,6 +5,7 @@ import random
 from string import ascii_uppercase
 from dotenv import load_dotenv
 import os
+from application.models import User
 
 load_dotenv()
 # Global variable to store rooms and their data
