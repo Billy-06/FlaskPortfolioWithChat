@@ -10,6 +10,6 @@ app.templates_folder='templates'
 
 app.config.from_object(DevConfig)
 
-socketio = SocketIO(app)
+socketio = SocketIO(app, cors_allowed_origins="*")
 db.init_app(app)
 
